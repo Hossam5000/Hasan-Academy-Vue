@@ -12,6 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
+  base: '/Hasan-Academy-Vue/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
